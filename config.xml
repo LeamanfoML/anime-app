@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.example.animeapp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Anime App</name>
+    <description>A simple anime discovery application</description>
+    <author email="dev@example.com" href="http://example.com">Anime App Team</author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <icon density="ldpi" src="assets/icon-36x36.png" />
+        <icon density="mdpi" src="assets/icon-48x48.png" />
+        <icon density="hdpi" src="assets/icon-72x72.png" />
+        <icon density="xhdpi" src="assets/icon-96x96.png" />
+        <icon density="xxhdpi" src="assets/icon-144x144.png" />
+        <icon density="xxxhdpi" src="assets/icon-192x192.png" />
+        <splash density="land-ldpi" src="assets/splash-320x200.png" />
+        <splash density="land-mdpi" src="assets/splash-480x320.png" />
+        <splash density="land-hdpi" src="assets/splash-800x480.png" />
+        <splash density="land-xhdpi" src="assets/splash-1280x720.png" />
+        <splash density="port-ldpi" src="assets/splash-200x320.png" />
+        <splash density="port-mdpi" src="assets/splash-320x480.png" />
+        <splash density="port-hdpi" src="assets/splash-480x800.png" />
+        <splash density="port-xhdpi" src="assets/splash-720x1280.png" />
+    </platform>
+    <preference name="Fullscreen" value="false" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="BackupWebStorage" value="local" />
+    <preference name="SplashScreenDelay" value="3000" />
+    <preference name="FadeSplashScreenDuration" value="500" />
+    <preference name="AutoHideSplashScreen" value="true" />
+</widget>

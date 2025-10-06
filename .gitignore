@@ -1,0 +1,19 @@
+# Dependency directories
+node_modules/
+platforms/
+plugins/
+hooks/
+
+# Log files
+*.log
+
+# Environment files
+.env
+.env.backup
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+.directory

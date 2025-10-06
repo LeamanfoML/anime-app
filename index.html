@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>Anime App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/x-icon" href="assets/icon.png">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <h1>Anime App</h1>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search anime...">
+                <button id="search-button">🔍</button>
+            </div>
+        </header>
+
+        <main class="app-content">
+            <div class="anime-grid" id="anime-grid">
+                <!-- Anime cards will be loaded here -->
+            </div>
+        </main>
+
+        <nav class="app-nav">
+            <button class="nav-btn active" id="home-btn">🏠 Home</button>
+            <button class="nav-btn" id="favorites-btn">❤️ Favorites</button>
+            <button class="nav-btn" id="settings-btn">⚙️ Settings</button>
+        </nav>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
